@@ -1,0 +1,14 @@
+create database mainDB;
+show databases; 
+
+create table studs (id INT NOT NULL,name varchar(10),city varchar(10)); 
+
+insert into studs values (01,’Madhu’,’Thane’),
+(01,’kunal’,’Aurnagabad’),
+(03,’anand’,’Nandra’),
+(04,’Tannu’,’Jalgaon’)
+(05,’Lucky’,’Ainpur’);
+
+select *from studs; 
+
+delete from studs where id=04 and name='Tannu'; 
